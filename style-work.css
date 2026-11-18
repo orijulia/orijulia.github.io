@@ -1,0 +1,39 @@
+body {
+        background-image: linear-gradient(45deg, rgb(163, 169, 170), rgb(252, 251, 251));
+        font-family: Helvetica;
+        height: 2500px;
+        background-size:contain;
+        background-position:bottom;
+       }
+
+.workbar div {
+        color: #000000;
+        font-weight: bold;
+        background-color: rgb(156, 156, 165);
+        width: 1000px;
+        font-size:14px;
+    }
+
+
+.workbar {
+        margin-left: 0x;
+        margin-top: 100px;
+        display: flex;
+        flex-direction:row;
+        height:0.6%;
+        width: 100%;
+        text-align: center;
+    }
+
+a {
+        text-decoration: none;
+        color:#fcfcfc
+      }     
+a:active {
+        text-decoration: none;
+      }
+
+a:hover {
+        text-decoration: none;
+        color:rgb(250, 6, 6)
+      }

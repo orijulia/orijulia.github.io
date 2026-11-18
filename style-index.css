@@ -1,0 +1,37 @@
+  body {
+        background-color: rgb(231, 231, 231);
+        font-family: Helvetica;
+        background-image: url(webdesignhatter.png) ;
+        height: 100 vh;
+        background-size:cover;
+        background-position:fixed;
+       }
+       
+    
+      div {
+        color: #000000;
+        font-weight: bold;
+        display:inline-block;
+        width: 100px
+        
+      
+       }
+      .nemtom {
+        margin-left: 530px;
+        margin-top: 415px;
+        font-size: 14px;
+      }
+
+      a {
+        text-decoration: none;
+        color:#000000
+      }     
+      a:active {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color:rgb(255, 255, 255)
+      }
+       

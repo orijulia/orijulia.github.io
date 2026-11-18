@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Réteg_1" data-name="Réteg 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <style>
+    polyline {
+      stroke-dasharray: 1;
+      stroke-dashoffset: 1;
+      animation: draw 0.35s ease-out 0.32s both;
+    }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+  </style>
+  <polyline pathLength="1" points="1276.41 876.03 1276.41 870.33 1403.29 870.33" fill="none" stroke="#f2f2f2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.92"/>
+</svg>

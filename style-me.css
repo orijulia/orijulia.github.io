@@ -1,0 +1,441 @@
+body {
+        background-image: linear-gradient(45deg, rgb(163, 169, 170), rgb(248, 42, 2));
+        font-family: Helvetica;
+        height: 2500px;
+        background-size:contain;
+        background-position:bottom;
+       }
+       
+    
+div {
+        color: #000000;
+        font-weight: bold;
+        background-color: rgb(156, 156, 165);
+        width: 1000px;
+        font-size:14px;
+       }
+
+.me {
+        margin-left: 0x;
+        margin-top: 100px;
+        display: flex;
+        flex-direction:row;
+        height:0.6%;
+        width: 100%;
+        text-align: center;
+      }
+
+.me div {
+        background-color:white;
+      }
+
+
+a {
+        text-decoration: none;
+        color:#000000
+      }     
+a:active {
+        text-decoration: none;
+      }
+
+a:hover {
+        text-decoration: none;
+        color:rgb(254, 251, 251)
+      }
+
+.about {
+        display:flexbox;
+        justify-content:left;
+        position:center;
+        margin-top:100px;
+        margin:100px;
+        width:85%;
+        text-align: center;
+        font-size:14px;
+        font-weight:normal;
+        color:rgb(248, 246, 246)
+        }
+
+.cv {
+        display:flexbox;
+        justify-content:left;
+        position:center;
+        background-color:rgb(249, 249, 253);
+        margin-top:600px;
+        margin:0px;
+        width:100%;
+        text-align:center;
+        font-weight:bold;
+        font-size:14px;
+        font-weight:normal;
+        }
+
+.cv div {
+        background-color:rgb(249, 249, 253);
+        }
+
+
+
+.cvsubtitles {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-right:110px;
+        margin-top:80px;
+        gap:200px;
+        
+        }
+
+.cvtexts div {
+        color: white;
+        background-color: transparent;
+        font-weight: normal;
+
+  }
+
+.cvtexts {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top: 30px;
+        gap:90px;
+}
+
+.cvaboutme {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        gap:200px;
+        width:700px;
+        height: 0.6%;
+}
+
+
+
+  .aboutmetext {
+        display: flex-end;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        width:85%;
+        color: white;
+        font-size:14px;
+        
+
+  }
+
+
+.studies {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        gap:200px;
+        width:500px;
+        height: 0.6%;
+
+
+}  
+
+.studiessubs {
+        display: flex;
+        flex-direction: row;
+        width:40%;
+        margin-left:110px;
+        margin-right:110px;
+        margin-top:30px;
+        gap:135px;
+        text-align:left;
+        
+        }
+  
+.studiessubs div {
+        background-color: rgb(156, 156, 165);
+        }
+
+.studiessubstexts div {
+        display: flex-end;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        width:15%;
+        color:white;
+        background-color:transparent;
+        font-weight: normal;
+
+       }
+
+.studiessubstexts {
+        display: flex;
+        flex-direction: row;
+        margin-left:20x;
+        margin-right:110px;
+        margin-top:0px;
+        gap:50px;
+        text-align:left;
+        
+        }
+
+.experience {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:60px;
+        margin-right:60px;
+        gap:200px;
+        width:500px;
+        height: 0.6%;
+
+
+}  
+
+.experiencetext {
+        display: flex-end;
+        flex-direction: row;
+        margin-left:110px;
+        margin-right:200px;
+        margin-top:30px;
+        width:85%;
+        color:white;
+        font-size:14px;
+        background-color:transparent;
+        font-weight: normal;
+
+
+} 
+
+.experiencesubext {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        gap:200px;
+        width:525px;
+        height: 0.9%;
+
+
+}  
+
+.experiencesubtexts div {
+        display: flex-end;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        width:95%;
+        color:white;
+        font-size:14px;
+        background-color:transparent;
+        font-weight: normal;
+}
+
+.studentinternship {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-right:110px;
+        margin-top:60px;
+        gap:800px;
+        text-align:left;
+        width:200px;
+
+        }
+
+.languageskills {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:60px;
+        gap:200px;
+        width:500px;
+        height: 0.6%;
+}
+
+.languagesubs {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        width:600px;
+        gap:200px;
+        
+        }
+  
+.languagesubs div {
+        background-color: rgb(156, 156, 165);
+        }
+
+.languagesubstexts div {
+        display: flex-end;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:30px;
+        width:15%;
+        color:white;
+        background-color:transparent;
+        font-weight: normal;
+
+       }
+
+.languagesubstexts {
+        display: flex;
+        flex-direction: row;
+        margin-left:20x;
+        margin-right:110px;
+        margin-top:20px;
+        gap:85px;
+        text-align:left;
+        
+        }
+
+.softwareskills {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:60px;
+        gap:200px;
+        width:500px;
+        height: 0.6%;
+}
+
+.rectangle1 {
+        width: 100px;
+        height:20px;
+        background-color:transparent;
+        box-sizing: border-box;
+        padding: 2px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left:110px;
+        margin-top:30px;
+        }
+
+.rectangle1 .inner-rectangle1 {
+  width: 98px;
+  height: 12px;
+  background-color: white;
+}
+
+.rectangle2 {
+        width: 100px;
+        height:20px;
+        background-color:transparent;
+        box-sizing: border-box;
+        padding: 2px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left:110px;
+        margin-top:30px;
+        }
+
+.rectangle2 .inner-rectangle2 {
+  width: 98px;
+  height: 12px;
+  background-color: white;
+}
+
+
+.rectangle3 {
+        width: 100px;
+        height:20px;
+        background-color:transparent;
+        box-sizing: border-box;
+        padding: 2px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left:110px;
+        margin-top:30px;
+        }
+
+.rectangle3 .inner-rectangle3 {
+  width: 98px;
+  height: 12px;
+  background-color: white;
+}
+
+.rectangle4 {
+        width: 100px;
+        height:20px;
+        background-color:transparent;
+        box-sizing: border-box;
+        padding: 2px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left:110px;
+        margin-top:30px;
+        }
+
+.rectangle4 .inner-rectangle4 {
+  width: 60px;
+  height: 12px;
+  background-color: white;
+}
+
+.rectangle5 {
+        width: 100px;
+        height:20px;
+        background-color:transparent;
+        box-sizing: border-box;
+        padding: 2px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left:110px;
+        margin-top:30px;
+        }
+
+.rectangle5 .inner-rectangle5 {
+  width: 98px;
+  height: 12px;
+  background-color: white;
+}
+
+.rectangle6 {
+        width: 100px;
+        height:20px;
+        background-color:transparent;
+        box-sizing: border-box;
+        padding: 2px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left:110px;
+        margin-top:30px;
+        }
+
+.rectangle6 .inner-rectangle6 {
+  width: 50px;
+  height: 12px;
+  background-color: white;
+}
+
+.rectangles {
+  display: flex;
+  gap: -10px;
+  margin-left:0px;
+  margin-top:0px;
+}
+
+.skillcharttexts {
+        display: flex;
+        flex-direction: row;
+        margin-left:110px;
+        margin-top:60px;
+        width:84.5%;
+        gap:0px;
+        }
+
+.skillcharttexts div {
+        background-color:transparent;
+        color:rgb(0, 0, 0);
+}
